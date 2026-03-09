@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dova | Soluções Digitais de Alto Nível</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0d7ff2",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-3xl font-bold">diamond</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold tracking-tight">Dova</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#services">Serviços</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#process">Processo</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#portfolio">Portfólio</a>
+<a class="bg-primary text-white px-5 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all" href="#contact">Começar Projeto</a>
+</nav>
+<button class="md:hidden text-slate-900 dark:text-slate-100">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative overflow-hidden pt-16 pb-24 lg:pt-32 lg:pb-40">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1 rounded-full w-fit border border-primary/20">
+<span class="material-symbols-outlined text-sm">verified</span>
+<span class="text-xs font-bold uppercase tracking-wider">Confiado por Líderes do Setor</span>
+</div>
+<h1 class="text-slate-900 dark:text-slate-100 text-5xl lg:text-7xl font-black leading-tight tracking-tight">Construindo Soluções Digitais de <span class="text-primary">Alto Nível</span> para Visionários</h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg lg:text-xl max-w-xl">Desenvolvimento de software profissional, confiável e inovador, sob medida para escalar seu negócio para o futuro.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex items-center justify-center bg-primary text-white px-8 py-4 rounded-xl text-lg font-bold hover:scale-[1.02] transition-transform" href="#contact">Solicitar Consultoria Gratuita</a>
+<a class="flex items-center justify-center border border-slate-300 dark:border-slate-700 px-8 py-4 rounded-xl text-lg font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" href="#portfolio">Ver Nosso Trabalho</a>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-20 -right-20 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-20 -left-20 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+<div class="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl">
+<img alt="Modern software interface" class="w-full h-full object-cover aspect-video lg:aspect-square" data-alt="Sleek dark themed dashboard interface with glowing blue accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1ISI84Ukvdrdfj21RTEBsXw8_CRHoLQVF6cuc2W_WVWiqN2hHe-ZJaSNjL2vmli4mWKIn9jYkwdFWDTIP48Uc2AKglkJ9JfBFzEzRXyxkT9EobZoxbLuTdxzNMTqY0g5woNJWMU1Hs7vjOjcdmkPrK536K0-pE-ufcPaDUdOlFoccT9j06RAoi1w7Q-Xhx0itoA3Iz2IUcZ412VN7luY_8qiw7v3PU0FjDl1EkfMyTX1tk5u8o62n3AJ78g20Ysirefxl_E9QWwk"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-24 bg-slate-50 dark:bg-slate-900/50" id="services">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Nossa Especialidade</h2>
+<h3 class="text-slate-900 dark:text-white text-3xl lg:text-5xl font-black tracking-tight">Serviços de Software Sob Medida</h3>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Custom Software -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">code</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Software Customizado</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Soluções sob medida construídas do zero para resolver seus desafios de negócios únicos e otimizar operações.</p>
+</div>
+<!-- Web Apps -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">browser_updated</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Aplicações Web</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Plataformas web escaláveis e de alto desempenho usando frameworks modernos como React, Next.js e Node.</p>
+</div>
+<!-- Mobile Apps -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">phone_iphone</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Apps Mobile</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Experiências móveis nativas e multiplataforma para iOS e Android que os usuários realmente amam usar.</p>
+</div>
+<!-- AI Solutions -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Soluções de IA</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Integrando machine learning e automação para preparar seu negócio para o futuro e ganhar vantagem competitiva.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section class="py-24" id="process">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3 text-left">Como Trabalhamos</h2>
+<h3 class="text-slate-900 dark:text-white text-3xl lg:text-5xl font-black tracking-tight mb-8">Nosso Ciclo de Vida de Desenvolvimento Comprovado</h3>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold">1</div>
+<div>
+<h5 class="text-lg font-bold mb-2">Descoberta e Estratégia</h5>
+<p class="text-slate-600 dark:text-slate-400">Mergulhamos profundamente em seus requisitos, necessidades de mercado e restrições técnicas para construir um roteiro sólido.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold">2</div>
+<div>
+<h5 class="text-lg font-bold mb-2">Design e Arquitetura</h5>
+<p class="text-slate-600 dark:text-slate-400">Criando UX/UI intuitivo e estruturas de backend robustas, construídas para escalar e seguras desde o primeiro dia.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold">3</div>
+<div>
+<h5 class="text-lg font-bold mb-2">Desenvolvimento Ágil</h5>
+<p class="text-slate-600 dark:text-slate-400">Codificação baseada em sprints com integração contínua e atualizações semanais para manter o projeto no caminho certo.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold">4</div>
+<div>
+<h5 class="text-lg font-bold mb-2">Lançamento e Suporte</h5>
+<p class="text-slate-600 dark:text-slate-400">QA rigoroso seguido de implantação e manutenção pós-lançamento 24 horas por dia, 7 dias por semana para garantir operações tranquilas.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<img alt="Team collaboration" class="rounded-2xl w-full h-64 object-cover mt-8" data-alt="Professional team in a modern office collaborating around a whiteboard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz5EM3eVioeg9-A0VQb0wBQFn1mgd1xE7BltvV0RBTI4qpr760aNCtsNaZuYo5DhPiDxw-ZssCER5mAF9ne4Y4adusmEAIdKGTpRlpmM8r5DL8BSGSyiPQd82wh6QErKzfQoiaSJhDwvypSrAEZcrrS0upVl-qn4nrrw1samSst-bIOIUZbbAZ8Zz2nnryHnXd0mYFfy0bjRWXb4rKpe4UQ5Hzns4aeVacVbpcapmybIESGTUXglEGTz2vxsCoCPBbQLfFOO5wpYs"/>
+<img alt="Digital strategy" class="rounded-2xl w-full h-64 object-cover" data-alt="Group of developers looking at code on a laptop screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC11W2GNlLQL5qKEi9WFRJvUsbQiCGtF0PbFNEPGgxQDj0AgPAX4XbQ5bHVhM46uONwJqm3XkYbXX0Y46ynjWG2zosmN0ApULnvGefh--YA8ehSGiqJn0KhTz6WiQBv9vo8Drc6fqivHlGokM2RIxww7M13PdjWc5cKtp0TnIM1i-n2f97i2bhSFGlkmwjsXWnmIr8HBxr6jiRyQFWCt6EyMennOGjhocnPkvvvtx5UXHRVqQfzBvIW_vVVIhcgS-woDI4qnbvexmg"/>
+<img alt="Modern office" class="rounded-2xl w-full h-64 object-cover" data-alt="Modern workspace with tech gadgets and minimalist design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzuNsRGkoCAOeyUCtixNQJDNU10iBOV_0D9rox8TIAm-e4dlxQOoGH3Czgzx_NfpRpJKlXkD5nLL2Y8x6Mi05G-2TtJtcg3ro9FTMXPNg7ILAKMgBW4FoCz3Lpn4rmWSkLZcpBEELpg2GlhOcMvCBaPgVJ8iu9jpv5zG1R-dWXMZrlXPHkHLmJyEW6WLPo2vNiy1SKb_OCKS7ZnKTds6UPIfjhNm8C57bxC_dUYInAapuFmHuNDFDSeE0k5-ub74XXGBAlj6G2Hxg"/>
+<img alt="App development" class="rounded-2xl w-full h-64 object-cover mt-[-2rem]" data-alt="Close up of a tablet showing wireframe designs for an app" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAo9b43sFlItDMfJjhFeqlun8rtRafssnSbsFJtxvPWvowlaI8Ikq1P7Ea-uc7xlHAJcpvHFZ3_FOcyYQrZ5YjuH60L6pVXGRh_6ZEqbEQHB4_3qKaaMp8jcAzHvO7ZNzwJGM1hesHoafN310SstmHMaMahEwgMmMEKWtBfN-6uk9u0HlpHy-7GEM_OeO3Pi-do8ncMIq6ZjVeGBh7AJy077EUsEJ8VYPSAue3mkRU-QWFfb31MmkS9inHJScQ4LMVEVb2EKc8-kaE"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Section -->
+<section class="py-24 bg-slate-50 dark:bg-slate-900/50" id="portfolio">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Portfólio</h2>
+<h3 class="text-slate-900 dark:text-white text-3xl lg:text-5xl font-black tracking-tight">Casos de Sucesso</h3>
+</div>
+<a class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Ver Todos os Estudos de Caso <span class="material-symbols-outlined">arrow_right_alt</span></a>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Project 1 -->
+<div class="group bg-white dark:bg-background-dark rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl transition-all">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Fintech App" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Data visualization dashboard for a financial application" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtecSkilm8QGZ8tRj5h9wkw51_ZdkpNkKj25n5c_dYPcItLFTIWjFmLY0Z2wzL9WkKlsT5yaqw1hZ_fIZxFtsb127IVtqcpjOcjnSagRdEqFWk_vymihcVwIwunyM7NkTPSgHWx4fvRxj5AZxDQPHs0lOPw6EWn2F9SGRK2pFnIweke4tM5IhcJemFeXeSWqEKwmUxwIorgScjYQGthJtNcja7yUMvP5Doi6md1XdoHjF_yXCYNpZJSJTALkSMhWd0LOt1umIgoSw"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest">Fintech</span>
+</div>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-bold mb-2">Plataforma Bancária NexGen</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Um ecossistema bancário digital completo que suporta milhões de transações diárias.</p>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-[10px] font-medium">React Native</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-[10px] font-medium">PostgreSQL</span>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group bg-white dark:bg-background-dark rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl transition-all">
+<div class="relative overflow-hidden aspect-video">
+<img alt="E-commerce" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Minimalist e-commerce shop interface for a luxury brand" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyEo4jYHdOfF55jSsqY4onRJRbdtsATvvfzZ69LkvKsUEqqW-XZoNJw2WLmoIl_cWJYHJ0AaVRJle0Y50oYCbWzkEagdMrXLK5X4-DIZwIHLhqDGTFy3QFPl6GSZKFYzyhxAYZB1peyYjccgYwdSiKVGg--qWlsHd9y_XWWrYToZCEnlj_0fYUSvk8qD8wwvWWHeODURebyL6Ta_HUGuc8y_9NLlHKOWndND5Y0eyHLRHph0RXBJiFl9rF05GXdYxabFHC16XFGWQ"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest">E-Commerce</span>
+</div>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-bold mb-2">Experiência Web LuxeRetail</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Plataforma de comércio headless de alto desempenho com IA de compras personalizada.</p>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-[10px] font-medium">Next.js</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-[10px] font-medium">Shopify Plus</span>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="group bg-white dark:bg-background-dark rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl transition-all">
+<div class="relative overflow-hidden aspect-video">
+<img alt="HealthTech" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Telehealth application interface showing medical charts and chat" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa3Yy_u4LUDQVUy1ug22g9Sgev7PYQqRFtP-YhoBWJslb6csB346loQuWnUC-TWj3SuDeucItdp2nFlZHS0Vxosyp0M6tek1Um8yWvKKlIvfFNUPcJUWL2BlIldxARO2NyN-c77f1Gym51-d6XYa9F_rOdZeHsVQ4FRitcXTYkCKWiDG8-Sc1OL6m4gab8IgfHjM3AwctvSGcdCqFwaC-eYFNaNsk-3QHYzyUQ_qHSVakIal0aGWHwKB_5Oarln7x9dYAdgS-xaxU"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest">HealthTech</span>
+</div>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-bold mb-2">Sistemas TeleMed Pro</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Portal do paciente em conformidade com HIPAA e ferramentas de monitoramento remoto para grandes hospitais.</p>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-[10px] font-medium">Node.js</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-[10px] font-medium">WebRTC</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<!-- Contact Section -->
+<section class="py-24 bg-slate-900 text-white" id="contact">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16">
+<div>
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Entre em Contato</h2>
+<h3 class="text-4xl lg:text-5xl font-black tracking-tight mb-8">Pronto para Construir o Futuro?</h3>
+<p class="text-slate-400 text-lg mb-12">Entre em contato conosco hoje para uma consultoria técnica gratuita. Ajudaremos você a definir sua estratégia e construir uma solução duradoura.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">mail</span>
+</div>
+<div>
+<p class="text-sm text-slate-400">Envie-nos um e-mail</p>
+<p class="font-bold">hello@dova.software</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">location_on</span>
+</div>
+<div data-location="San Francisco" style="">
+<p class="text-sm text-slate-400">Sede</p>
+<p class="font-bold">San Francisco, CA</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-background-dark p-8 lg:p-12 rounded-2xl shadow-2xl text-slate-900 dark:text-slate-100">
+<form class="space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-bold mb-2">Nome Completo</label>
+<input class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="João Silva" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-bold mb-2">E-mail Corporativo</label>
+<input class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="john@company.com" type="email"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-bold mb-2">Tipo de Projeto</label>
+<select class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-primary outline-none transition-all">
+<option>Software Customizado</option>
+<option>App Mobile</option>
+<option>Plataforma Web</option>
+<option>IA / Machine Learning</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-bold mb-2">Mensagem</label>
+<textarea class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="Conte-nos sobre seu projeto..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white py-4 rounded-xl font-bold text-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/20" type="submit">Enviar Mensagem</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-light dark:bg-background-dark py-12 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-3xl font-bold">diamond</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold tracking-tight">Dova</h2>
+</div>
+<div class="flex gap-8 text-sm text-slate-500">
+<a class="hover:text-primary transition-colors" href="#">Política de Privacidade</a>
+<a class="hover:text-primary transition-colors" href="#">Termos de Serviço</a>
+<a class="hover:text-primary transition-colors" href="#">Política de Cookies</a>
+</div>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-sm">public</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-sm">groups</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-sm">terminal</span>
+</a>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-xs text-slate-500">© 2024 Dova Software Solutions. Todos os direitos reservados. Construído para visionários.</div>
+</div>
+</footer>
+</body></html>
